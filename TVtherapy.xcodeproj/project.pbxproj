@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA64860162740D000433E9D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA6485F162740D000433E9D /* Accelerate.framework */; };
+		DEA64862162740D000433E9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64861162740D000433E9D /* AVFoundation.framework */; };
+		DEA64864162740D000433E9D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64863162740D000433E9D /* CoreFoundation.framework */; };
+		DEA64866162740D000433E9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64865162740D000433E9D /* CoreGraphics.framework */; };
+		DEA64868162740D000433E9D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64867162740D000433E9D /* CoreImage.framework */; };
+		DEA6486A162740D000433E9D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64869162740D000433E9D /* CoreMedia.framework */; };
+		DEA6486C162740D000433E9D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA6486B162740D000433E9D /* CoreText.framework */; };
+		DEA6486E162740D000433E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA6486D162740D000433E9D /* Foundation.framework */; };
+		DEA64870162740D000433E9D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA6486F162740D000433E9D /* OpenGLES.framework */; };
+		DEA64872162740D000433E9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64871162740D000433E9D /* QuartzCore.framework */; };
+		DEA64874162740D000433E9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA64873162740D000433E9D /* UIKit.framework */; };
+		DEA6487A162740D000433E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA64878162740D000433E9D /* InfoPlist.strings */; };
+		DEA6487C162740D000433E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6487B162740D000433E9D /* main.m */; };
+		DEA64881162740D000433E9D /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA64880162740D000433E9D /* C4AppDelegate.m */; };
+		DEA64883162740D000433E9D /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA64882162740D000433E9D /* C4WorkSpace.m */; };
+		DEA648A9162740D000433E9D /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA648A8162740D000433E9D /* libC4.a */; };
+		DEA648AC162740D000433E9D /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AB162740D000433E9D /* C4Loop.aif */; };
+		DEA648AE162740D000433E9D /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AD162740D000433E9D /* C4Sky.png */; };
+		DEA648B0162740D000433E9D /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AF162740D000433E9D /* C4Table.png */; };
+		DEA648B2162740D000433E9D /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B1162740D000433E9D /* inception.mov */; };
+		DEA648B5162740D000433E9D /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B4162740D000433E9D /* iTunesArtwork.png */; };
+		DEA648B8162740D000433E9D /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B6162740D000433E9D /* C4Canvas.xib */; };
+		DEA648BA162740D000433E9D /* C4_AppIcon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B9162740D000433E9D /* C4_AppIcon_iPad.png */; };
+		DEA648BC162740D000433E9D /* C4_AppIcon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648BB162740D000433E9D /* C4_AppIcon_iPad@2x.png */; };
+		DEA648BE162740D000433E9D /* C4_AppStoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648BD162740D000433E9D /* C4_AppStoreIcon.png */; };
+		DEA648C0162740D000433E9D /* C4_AppStoreIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648BF162740D000433E9D /* C4_AppStoreIcon@2x.png */; };
+		DEA648C2162740D000433E9D /* C4_LaunchImage_iPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648C1162740D000433E9D /* C4_LaunchImage_iPad-Landscape.png */; };
+		DEA648C4162740D000433E9D /* C4_LaunchImage_iPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648C3162740D000433E9D /* C4_LaunchImage_iPad-Landscape@2x.png */; };
+		DEA648C6162740D000433E9D /* C4_LaunchImage_iPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648C5162740D000433E9D /* C4_LaunchImage_iPad-Portrait.png */; };
+		DEA648C8162740D000433E9D /* C4_LaunchImage_iPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648C7162740D000433E9D /* C4_LaunchImage_iPad-Portrait@2x.png */; };
+		DEA648CA162740D000433E9D /* C4_SpotlightIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648C9162740D000433E9D /* C4_SpotlightIcon.png */; };
+		DEA648CC162740D000433E9D /* C4_SpotlightIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648CB162740D000433E9D /* C4_SpotlightIcon@2x.png */; };
+		DEA648CE162740D000433E9D /* C4_SpotlightIcon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648CD162740D000433E9D /* C4_SpotlightIcon_iPad.png */; };
+		DEA648D0162740D000433E9D /* C4_SpotlightIcon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648CF162740D000433E9D /* C4_SpotlightIcon_iPad@2x.png */; };
+		DEA648D2162740D000433E9D /* C4_TabbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D1162740D000433E9D /* C4_TabbarIcon.png */; };
+		DEA648D4162740D000433E9D /* C4_TabbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D3162740D000433E9D /* C4_TabbarIcon@2x.png */; };
+		DEA648D6162740D000433E9D /* C4_ToolbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D5162740D000433E9D /* C4_ToolbarIcon.png */; };
+		DEA648D8162740D000433E9D /* C4_ToolbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D7162740D000433E9D /* C4_ToolbarIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEA6485B162740D000433E9D /* TVtherapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVtherapy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6485F162740D000433E9D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DEA64861162740D000433E9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DEA64863162740D000433E9D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DEA64865162740D000433E9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEA64867162740D000433E9D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DEA64869162740D000433E9D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DEA6486B162740D000433E9D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DEA6486D162740D000433E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEA6486F162740D000433E9D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DEA64871162740D000433E9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DEA64873162740D000433E9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEA64877162740D000433E9D /* TVtherapy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVtherapy-Info.plist"; sourceTree = "<group>"; };
+		DEA64879162740D000433E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEA6487B162740D000433E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA6487D162740D000433E9D /* TVtherapy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVtherapy-Prefix.pch"; sourceTree = "<group>"; };
+		DEA6487E162740D000433E9D /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		DEA6487F162740D000433E9D /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4AppDelegate.h; sourceTree = "<group>"; };
+		DEA64880162740D000433E9D /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4AppDelegate.m; sourceTree = "<group>"; };
+		DEA64882162740D000433E9D /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		DEA64885162740D000433E9D /* C4AddSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AddSubview.h; path = Headers/C4AddSubview.h; sourceTree = "<group>"; };
+		DEA64886162740D000433E9D /* C4AssertionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AssertionHandler.h; path = Headers/C4AssertionHandler.h; sourceTree = "<group>"; };
+		DEA64887162740D000433E9D /* C4Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Camera.h; path = Headers/C4Camera.h; sourceTree = "<group>"; };
+		DEA64888162740D000433E9D /* C4CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CameraController.h; path = Headers/C4CameraController.h; sourceTree = "<group>"; };
+		DEA64889162740D000433E9D /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		DEA6488A162740D000433E9D /* C4CaptureVideoPreviewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CaptureVideoPreviewLayer.h; path = Headers/C4CaptureVideoPreviewLayer.h; sourceTree = "<group>"; };
+		DEA6488B162740D000433E9D /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		DEA6488C162740D000433E9D /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		DEA6488D162740D000433E9D /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		DEA6488E162740D000433E9D /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		DEA6488F162740D000433E9D /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		DEA64890162740D000433E9D /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		DEA64891162740D000433E9D /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		DEA64892162740D000433E9D /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		DEA64893162740D000433E9D /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		DEA64894162740D000433E9D /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		DEA64895162740D000433E9D /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		DEA64896162740D000433E9D /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		DEA64897162740D000433E9D /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		DEA64898162740D000433E9D /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		DEA64899162740D000433E9D /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		DEA6489A162740D000433E9D /* C4MethodDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4MethodDelay.h; path = Headers/C4MethodDelay.h; sourceTree = "<group>"; };
+		DEA6489B162740D000433E9D /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		DEA6489C162740D000433E9D /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		DEA6489D162740D000433E9D /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		DEA6489E162740D000433E9D /* C4PlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4PlayerLayer.h; path = Headers/C4PlayerLayer.h; sourceTree = "<group>"; };
+		DEA6489F162740D000433E9D /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		DEA648A0162740D000433E9D /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		DEA648A1162740D000433E9D /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		DEA648A2162740D000433E9D /* C4Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Timer.h; path = Headers/C4Timer.h; sourceTree = "<group>"; };
+		DEA648A3162740D000433E9D /* C4Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Vector.h; path = Headers/C4Vector.h; sourceTree = "<group>"; };
+		DEA648A4162740D000433E9D /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		DEA648A5162740D000433E9D /* C4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ViewController.h; path = Headers/C4ViewController.h; sourceTree = "<group>"; };
+		DEA648A6162740D000433E9D /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		DEA648A7162740D000433E9D /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
+		DEA648A8162740D000433E9D /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
+		DEA648AB162740D000433E9D /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
+		DEA648AD162740D000433E9D /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
+		DEA648AF162740D000433E9D /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
+		DEA648B1162740D000433E9D /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
+		DEA648B4162740D000433E9D /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
+		DEA648B7162740D000433E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
+		DEA648B9162740D000433E9D /* C4_AppIcon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_AppIcon_iPad.png; path = Logos/C4_AppIcon_iPad.png; sourceTree = "<group>"; };
+		DEA648BB162740D000433E9D /* C4_AppIcon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_AppIcon_iPad@2x.png"; path = "Logos/C4_AppIcon_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA648BD162740D000433E9D /* C4_AppStoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_AppStoreIcon.png; path = Logos/C4_AppStoreIcon.png; sourceTree = "<group>"; };
+		DEA648BF162740D000433E9D /* C4_AppStoreIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_AppStoreIcon@2x.png"; path = "Logos/C4_AppStoreIcon@2x.png"; sourceTree = "<group>"; };
+		DEA648C1162740D000433E9D /* C4_LaunchImage_iPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Landscape.png"; path = "Logos/C4_LaunchImage_iPad-Landscape.png"; sourceTree = "<group>"; };
+		DEA648C3162740D000433E9D /* C4_LaunchImage_iPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Landscape@2x.png"; path = "Logos/C4_LaunchImage_iPad-Landscape@2x.png"; sourceTree = "<group>"; };
+		DEA648C5162740D000433E9D /* C4_LaunchImage_iPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Portrait.png"; path = "Logos/C4_LaunchImage_iPad-Portrait.png"; sourceTree = "<group>"; };
+		DEA648C7162740D000433E9D /* C4_LaunchImage_iPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Portrait@2x.png"; path = "Logos/C4_LaunchImage_iPad-Portrait@2x.png"; sourceTree = "<group>"; };
+		DEA648C9162740D000433E9D /* C4_SpotlightIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_SpotlightIcon.png; path = Logos/C4_SpotlightIcon.png; sourceTree = "<group>"; };
+		DEA648CB162740D000433E9D /* C4_SpotlightIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_SpotlightIcon@2x.png"; path = "Logos/C4_SpotlightIcon@2x.png"; sourceTree = "<group>"; };
+		DEA648CD162740D000433E9D /* C4_SpotlightIcon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_SpotlightIcon_iPad.png; path = Logos/C4_SpotlightIcon_iPad.png; sourceTree = "<group>"; };
+		DEA648CF162740D000433E9D /* C4_SpotlightIcon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_SpotlightIcon_iPad@2x.png"; path = "Logos/C4_SpotlightIcon_iPad@2x.png"; sourceTree = "<group>"; };
+		DEA648D1162740D000433E9D /* C4_TabbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_TabbarIcon.png; path = Logos/C4_TabbarIcon.png; sourceTree = "<group>"; };
+		DEA648D3162740D000433E9D /* C4_TabbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_TabbarIcon@2x.png"; path = "Logos/C4_TabbarIcon@2x.png"; sourceTree = "<group>"; };
+		DEA648D5162740D000433E9D /* C4_ToolbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_ToolbarIcon.png; path = Logos/C4_ToolbarIcon.png; sourceTree = "<group>"; };
+		DEA648D7162740D000433E9D /* C4_ToolbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_ToolbarIcon@2x.png"; path = "Logos/C4_ToolbarIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA64858162740D000433E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA64860162740D000433E9D /* Accelerate.framework in Frameworks */,
+				DEA64862162740D000433E9D /* AVFoundation.framework in Frameworks */,
+				DEA64864162740D000433E9D /* CoreFoundation.framework in Frameworks */,
+				DEA64866162740D000433E9D /* CoreGraphics.framework in Frameworks */,
+				DEA64868162740D000433E9D /* CoreImage.framework in Frameworks */,
+				DEA6486A162740D000433E9D /* CoreMedia.framework in Frameworks */,
+				DEA6486C162740D000433E9D /* CoreText.framework in Frameworks */,
+				DEA6486E162740D000433E9D /* Foundation.framework in Frameworks */,
+				DEA64870162740D000433E9D /* OpenGLES.framework in Frameworks */,
+				DEA64872162740D000433E9D /* QuartzCore.framework in Frameworks */,
+				DEA64874162740D000433E9D /* UIKit.framework in Frameworks */,
+				DEA648A9162740D000433E9D /* libC4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA64850162740D000433E9D = {
+			isa = PBXGroup;
+			children = (
+				DEA64875162740D000433E9D /* TVtherapy */,
+				DEA6485E162740D000433E9D /* Frameworks */,
+				DEA6485C162740D000433E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA6485C162740D000433E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6485B162740D000433E9D /* TVtherapy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA6485E162740D000433E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6485F162740D000433E9D /* Accelerate.framework */,
+				DEA64861162740D000433E9D /* AVFoundation.framework */,
+				DEA64863162740D000433E9D /* CoreFoundation.framework */,
+				DEA64865162740D000433E9D /* CoreGraphics.framework */,
+				DEA64867162740D000433E9D /* CoreImage.framework */,
+				DEA64869162740D000433E9D /* CoreMedia.framework */,
+				DEA6486B162740D000433E9D /* CoreText.framework */,
+				DEA6486D162740D000433E9D /* Foundation.framework */,
+				DEA6486F162740D000433E9D /* OpenGLES.framework */,
+				DEA64871162740D000433E9D /* QuartzCore.framework */,
+				DEA64873162740D000433E9D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA64875162740D000433E9D /* TVtherapy */ = {
+			isa = PBXGroup;
+			children = (
+				DEA64882162740D000433E9D /* C4WorkSpace.m */,
+				DEA64884162740D000433E9D /* Framework */,
+				DEA648AA162740D000433E9D /* Media */,
+				DEA648B3162740D000433E9D /* Logos */,
+				DEA64876162740D000433E9D /* Supporting Files */,
+			);
+			path = TVtherapy;
+			sourceTree = "<group>";
+		};
+		DEA64876162740D000433E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA64877162740D000433E9D /* TVtherapy-Info.plist */,
+				DEA64878162740D000433E9D /* InfoPlist.strings */,
+				DEA6487B162740D000433E9D /* main.m */,
+				DEA6487D162740D000433E9D /* TVtherapy-Prefix.pch */,
+				DEA6487E162740D000433E9D /* C4WorkSpace.h */,
+				DEA6487F162740D000433E9D /* C4AppDelegate.h */,
+				DEA64880162740D000433E9D /* C4AppDelegate.m */,
+				DEA648B6162740D000433E9D /* C4Canvas.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA64884162740D000433E9D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DEA64885162740D000433E9D /* C4AddSubview.h */,
+				DEA64886162740D000433E9D /* C4AssertionHandler.h */,
+				DEA64887162740D000433E9D /* C4Camera.h */,
+				DEA64888162740D000433E9D /* C4CameraController.h */,
+				DEA64889162740D000433E9D /* C4CanvasController.h */,
+				DEA6488A162740D000433E9D /* C4CaptureVideoPreviewLayer.h */,
+				DEA6488B162740D000433E9D /* C4Control.h */,
+				DEA6488C162740D000433E9D /* C4Defines.h */,
+				DEA6488D162740D000433E9D /* C4EAGLES1Renderer.h */,
+				DEA6488E162740D000433E9D /* C4EAGLESRenderer.h */,
+				DEA6488F162740D000433E9D /* C4EAGLLayer.h */,
+				DEA64890162740D000433E9D /* C4Font.h */,
+				DEA64891162740D000433E9D /* C4Foundation.h */,
+				DEA64892162740D000433E9D /* C4Gesture.h */,
+				DEA64893162740D000433E9D /* C4GL.h */,
+				DEA64894162740D000433E9D /* C4GL1Renderer.h */,
+				DEA64895162740D000433E9D /* C4Image.h */,
+				DEA64896162740D000433E9D /* C4Label.h */,
+				DEA64897162740D000433E9D /* C4Layer.h */,
+				DEA64898162740D000433E9D /* C4LayerAnimation.h */,
+				DEA64899162740D000433E9D /* C4Math.h */,
+				DEA6489A162740D000433E9D /* C4MethodDelay.h */,
+				DEA6489B162740D000433E9D /* C4Movie.h */,
+				DEA6489C162740D000433E9D /* C4Notification.h */,
+				DEA6489D162740D000433E9D /* C4Object.h */,
+				DEA6489E162740D000433E9D /* C4PlayerLayer.h */,
+				DEA6489F162740D000433E9D /* C4Sample.h */,
+				DEA648A0162740D000433E9D /* C4Shape.h */,
+				DEA648A1162740D000433E9D /* C4ShapeLayer.h */,
+				DEA648A2162740D000433E9D /* C4Timer.h */,
+				DEA648A3162740D000433E9D /* C4Vector.h */,
+				DEA648A4162740D000433E9D /* C4View.h */,
+				DEA648A5162740D000433E9D /* C4ViewController.h */,
+				DEA648A6162740D000433E9D /* C4Window.h */,
+				DEA648A7162740D000433E9D /* UITouch+C4Touch.h */,
+				DEA648A8162740D000433E9D /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		DEA648AA162740D000433E9D /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				DEA648AB162740D000433E9D /* C4Loop.aif */,
+				DEA648AD162740D000433E9D /* C4Sky.png */,
+				DEA648AF162740D000433E9D /* C4Table.png */,
+				DEA648B1162740D000433E9D /* inception.mov */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		DEA648B3162740D000433E9D /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				DEA648B4162740D000433E9D /* iTunesArtwork.png */,
+				DEA648B9162740D000433E9D /* C4_AppIcon_iPad.png */,
+				DEA648BB162740D000433E9D /* C4_AppIcon_iPad@2x.png */,
+				DEA648BD162740D000433E9D /* C4_AppStoreIcon.png */,
+				DEA648BF162740D000433E9D /* C4_AppStoreIcon@2x.png */,
+				DEA648C1162740D000433E9D /* C4_LaunchImage_iPad-Landscape.png */,
+				DEA648C3162740D000433E9D /* C4_LaunchImage_iPad-Landscape@2x.png */,
+				DEA648C5162740D000433E9D /* C4_LaunchImage_iPad-Portrait.png */,
+				DEA648C7162740D000433E9D /* C4_LaunchImage_iPad-Portrait@2x.png */,
+				DEA648C9162740D000433E9D /* C4_SpotlightIcon.png */,
+				DEA648CB162740D000433E9D /* C4_SpotlightIcon@2x.png */,
+				DEA648CD162740D000433E9D /* C4_SpotlightIcon_iPad.png */,
+				DEA648CF162740D000433E9D /* C4_SpotlightIcon_iPad@2x.png */,
+				DEA648D1162740D000433E9D /* C4_TabbarIcon.png */,
+				DEA648D3162740D000433E9D /* C4_TabbarIcon@2x.png */,
+				DEA648D5162740D000433E9D /* C4_ToolbarIcon.png */,
+				DEA648D7162740D000433E9D /* C4_ToolbarIcon@2x.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA6485A162740D000433E9D /* TVtherapy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA648DB162740D000433E9D /* Build configuration list for PBXNativeTarget "TVtherapy" */;
+			buildPhases = (
+				DEA64857162740D000433E9D /* Sources */,
+				DEA64858162740D000433E9D /* Frameworks */,
+				DEA64859162740D000433E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVtherapy;
+			productName = TVtherapy;
+			productReference = DEA6485B162740D000433E9D /* TVtherapy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA64852162740D000433E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "dubpixel inc";
+			};
+			buildConfigurationList = DEA64855162740D000433E9D /* Build configuration list for PBXProject "TVtherapy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEA64850162740D000433E9D;
+			productRefGroup = DEA6485C162740D000433E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA6485A162740D000433E9D /* TVtherapy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA64859162740D000433E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6487A162740D000433E9D /* InfoPlist.strings in Resources */,
+				DEA648AC162740D000433E9D /* C4Loop.aif in Resources */,
+				DEA648AE162740D000433E9D /* C4Sky.png in Resources */,
+				DEA648B0162740D000433E9D /* C4Table.png in Resources */,
+				DEA648B2162740D000433E9D /* inception.mov in Resources */,
+				DEA648B5162740D000433E9D /* iTunesArtwork.png in Resources */,
+				DEA648B8162740D000433E9D /* C4Canvas.xib in Resources */,
+				DEA648BA162740D000433E9D /* C4_AppIcon_iPad.png in Resources */,
+				DEA648BC162740D000433E9D /* C4_AppIcon_iPad@2x.png in Resources */,
+				DEA648BE162740D000433E9D /* C4_AppStoreIcon.png in Resources */,
+				DEA648C0162740D000433E9D /* C4_AppStoreIcon@2x.png in Resources */,
+				DEA648C2162740D000433E9D /* C4_LaunchImage_iPad-Landscape.png in Resources */,
+				DEA648C4162740D000433E9D /* C4_LaunchImage_iPad-Landscape@2x.png in Resources */,
+				DEA648C6162740D000433E9D /* C4_LaunchImage_iPad-Portrait.png in Resources */,
+				DEA648C8162740D000433E9D /* C4_LaunchImage_iPad-Portrait@2x.png in Resources */,
+				DEA648CA162740D000433E9D /* C4_SpotlightIcon.png in Resources */,
+				DEA648CC162740D000433E9D /* C4_SpotlightIcon@2x.png in Resources */,
+				DEA648CE162740D000433E9D /* C4_SpotlightIcon_iPad.png in Resources */,
+				DEA648D0162740D000433E9D /* C4_SpotlightIcon_iPad@2x.png in Resources */,
+				DEA648D2162740D000433E9D /* C4_TabbarIcon.png in Resources */,
+				DEA648D4162740D000433E9D /* C4_TabbarIcon@2x.png in Resources */,
+				DEA648D6162740D000433E9D /* C4_ToolbarIcon.png in Resources */,
+				DEA648D8162740D000433E9D /* C4_ToolbarIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA64857162740D000433E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6487C162740D000433E9D /* main.m in Sources */,
+				DEA64881162740D000433E9D /* C4AppDelegate.m in Sources */,
+				DEA64883162740D000433E9D /* C4WorkSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA64878162740D000433E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA64879162740D000433E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEA648B6162740D000433E9D /* C4Canvas.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA648B7162740D000433E9D /* en */,
+			);
+			name = C4Canvas.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA648D9162740D000433E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DEA648DA162740D000433E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA648DC162740D000433E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVtherapy/TVtherapy-Prefix.pch";
+				INFOPLIST_FILE = "TVtherapy/TVtherapy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TVtherapy/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEA648DD162740D000433E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVtherapy/TVtherapy-Prefix.pch";
+				INFOPLIST_FILE = "TVtherapy/TVtherapy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TVtherapy/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA64855162740D000433E9D /* Build configuration list for PBXProject "TVtherapy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA648D9162740D000433E9D /* Debug */,
+				DEA648DA162740D000433E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA648DB162740D000433E9D /* Build configuration list for PBXNativeTarget "TVtherapy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA648DC162740D000433E9D /* Debug */,
+				DEA648DD162740D000433E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA64852162740D000433E9D /* Project object */;
+}
