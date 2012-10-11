@@ -23,10 +23,6 @@
 		DEA64881162740D000433E9D /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA64880162740D000433E9D /* C4AppDelegate.m */; };
 		DEA64883162740D000433E9D /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA64882162740D000433E9D /* C4WorkSpace.m */; };
 		DEA648A9162740D000433E9D /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA648A8162740D000433E9D /* libC4.a */; };
-		DEA648AC162740D000433E9D /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AB162740D000433E9D /* C4Loop.aif */; };
-		DEA648AE162740D000433E9D /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AD162740D000433E9D /* C4Sky.png */; };
-		DEA648B0162740D000433E9D /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648AF162740D000433E9D /* C4Table.png */; };
-		DEA648B2162740D000433E9D /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B1162740D000433E9D /* inception.mov */; };
 		DEA648B5162740D000433E9D /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B4162740D000433E9D /* iTunesArtwork.png */; };
 		DEA648B8162740D000433E9D /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B6162740D000433E9D /* C4Canvas.xib */; };
 		DEA648BA162740D000433E9D /* C4_AppIcon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648B9162740D000433E9D /* C4_AppIcon_iPad.png */; };
@@ -45,6 +41,7 @@
 		DEA648D4162740D000433E9D /* C4_TabbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D3162740D000433E9D /* C4_TabbarIcon@2x.png */; };
 		DEA648D6162740D000433E9D /* C4_ToolbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D5162740D000433E9D /* C4_ToolbarIcon.png */; };
 		DEA648D8162740D000433E9D /* C4_ToolbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA648D7162740D000433E9D /* C4_ToolbarIcon@2x.png */; };
+		DEA648EB16274FDD00433E9D /* TV-SMASH.m4v in Resources */ = {isa = PBXBuildFile; fileRef = DEA648EA16274FDD00433E9D /* TV-SMASH.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,10 +101,6 @@
 		DEA648A6162740D000433E9D /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
 		DEA648A7162740D000433E9D /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
 		DEA648A8162740D000433E9D /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
-		DEA648AB162740D000433E9D /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
-		DEA648AD162740D000433E9D /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
-		DEA648AF162740D000433E9D /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
-		DEA648B1162740D000433E9D /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
 		DEA648B4162740D000433E9D /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
 		DEA648B7162740D000433E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
 		DEA648B9162740D000433E9D /* C4_AppIcon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_AppIcon_iPad.png; path = Logos/C4_AppIcon_iPad.png; sourceTree = "<group>"; };
@@ -126,6 +119,7 @@
 		DEA648D3162740D000433E9D /* C4_TabbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_TabbarIcon@2x.png"; path = "Logos/C4_TabbarIcon@2x.png"; sourceTree = "<group>"; };
 		DEA648D5162740D000433E9D /* C4_ToolbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_ToolbarIcon.png; path = Logos/C4_ToolbarIcon.png; sourceTree = "<group>"; };
 		DEA648D7162740D000433E9D /* C4_ToolbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_ToolbarIcon@2x.png"; path = "Logos/C4_ToolbarIcon@2x.png"; sourceTree = "<group>"; };
+		DEA648EA16274FDD00433E9D /* TV-SMASH.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TV-SMASH.m4v"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,10 +253,7 @@
 		DEA648AA162740D000433E9D /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				DEA648AB162740D000433E9D /* C4Loop.aif */,
-				DEA648AD162740D000433E9D /* C4Sky.png */,
-				DEA648AF162740D000433E9D /* C4Table.png */,
-				DEA648B1162740D000433E9D /* inception.mov */,
+				DEA648EA16274FDD00433E9D /* TV-SMASH.m4v */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -343,10 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA6487A162740D000433E9D /* InfoPlist.strings in Resources */,
-				DEA648AC162740D000433E9D /* C4Loop.aif in Resources */,
-				DEA648AE162740D000433E9D /* C4Sky.png in Resources */,
-				DEA648B0162740D000433E9D /* C4Table.png in Resources */,
-				DEA648B2162740D000433E9D /* inception.mov in Resources */,
 				DEA648B5162740D000433E9D /* iTunesArtwork.png in Resources */,
 				DEA648B8162740D000433E9D /* C4Canvas.xib in Resources */,
 				DEA648BA162740D000433E9D /* C4_AppIcon_iPad.png in Resources */,
@@ -365,6 +352,7 @@
 				DEA648D4162740D000433E9D /* C4_TabbarIcon@2x.png in Resources */,
 				DEA648D6162740D000433E9D /* C4_ToolbarIcon.png in Resources */,
 				DEA648D8162740D000433E9D /* C4_ToolbarIcon@2x.png in Resources */,
+				DEA648EB16274FDD00433E9D /* TV-SMASH.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +491,7 @@
 				DEA648DD162740D000433E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
